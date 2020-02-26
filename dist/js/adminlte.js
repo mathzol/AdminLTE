@@ -967,7 +967,7 @@ throw new Error('AdminLTE requires jQuery')
 
   // Tree Data API
   // =============
-  $(window).on('load', function () {
+  $(document).ready(function () {
     $(Selector.data).each(function () {
       Plugin.call($(this));
     });
